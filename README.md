@@ -4,11 +4,11 @@ Projeto de modelagem e implementação de um banco de dados voltado ao contexto 
 
 ## Contexto do Negócio
 
-Um conglomerado de construtoras deseja gerir suas obras e seus recursos, permitindo o controle de informações relacionadas a construtoras, trabalhadores, obras, equipamentos e categorias.
-Cada construtora possui código, nome, um ou mais telefones e, opcionalmente, um nome fantasia. As construtoras são responsáveis por múltiplas obras.
-As obras possuem código, nome e endereço (logradouro, número e complemento opcional), sendo o local onde os trabalhadores e equipamentos são alocados.
-Os trabalhadores possuem CPF, nome e salário, e cada trabalhador está associado a uma única obra.
-Os equipamentos possuem código, nome e valor de uso diário, podendo ser alocados em uma ou mais obras ao longo do tempo. Para cada alocação, são registradas as datas de início e término de uso.
+Um conglomerado de construtoras deseja gerir suas obras e seus recursos, permitindo o controle de informações relacionadas a construtoras, trabalhadores, obras, equipamentos e categorias. <br>
+Cada construtora possui código, nome, um ou mais telefones e, opcionalmente, um nome fantasia. As construtoras são responsáveis por múltiplas obras. <br>
+As obras possuem código, nome e endereço (logradouro, número e complemento opcional), sendo o local onde os trabalhadores e equipamentos são alocados. <br>
+Os trabalhadores possuem CPF, nome e salário, e cada trabalhador está associado a uma única obra. <br>
+Os equipamentos possuem código, nome e valor de uso diário, podendo ser alocados em uma ou mais obras ao longo do tempo. Para cada alocação, são registradas as datas de início e término de uso. <br>
 Cada equipamento pertence a uma categoria, sendo que cada categoria possui código e descrição.
 
 ## Conceitual - DER
@@ -99,9 +99,6 @@ Cada equipamento pertence a uma categoria, sendo que cada categoria possui códi
 
 ![Consultas SQL](Consulta_04.png)
 
-## Geração de JSON
-
-Foi desenvolvida uma consulta SQL para consolidar e estruturar os dados em formato JSON.
 
 ## Tecnologias
 
